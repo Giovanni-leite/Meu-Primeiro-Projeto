@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title>Gerador de Currículo Online</title>
+</head>
+<body>
+    <h1 style="color: #000; font-size: 50px" ;><u><i>Gerador de currículo online.</i></u></h1>
+
+    <h2>Curriculum Vitae</h2><br>
+    <div class="mydiv">
+        <h3>Informe seus dados e experiências profissionais</h3>
+        <form id="form1" method="POST">
+            <div class="div-form input-name">
+                <label for="name">Nome completo:</label>
+                <input class="field" id="name" name="name" placeholder="Escreva seu nome aqui!"><br>
+            </div>
+            <div class="div-form">
+                <label for="email">Insira seu e-mail:</label >
+                <input class="field" id="email" name="email" type="email" placeholder="Insira seu email aqui!"><br>
+            </div>
+            <div class="div-form">
+                <label for="phone">Insira seu telefone:</label >
+                <input class="field" id="phone" name="phone" type="text" placeholder="Insira seu telefone aqui!"><br>
+            </div> 
+            <div class="div-form">
+                <label for="sex">Sexo</label>
+                <select class field id="sex" name="sex" required>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outros">Outros</option>
+                </select><br>
+            </div>
+            <div class="div-form">
+                <label for="birth">Data de Nascimento:</label>
+                <input type="date" class="field" id="birth" name="birth"><br>
+            </div>
+            <div class="div-form" id="box">
+                <label for="graduated">Formação acadêmica:</label>
+                <textarea type class="area" id="graduated0" name="graduated" placeholder="Escreva sua formação aqui"></textarea><br>
+            </div>
+            <button id="add" class="add">Adicionar formação +</button><br>
+            <div class="div-form" id="prof">
+                <label for="exp">Experiências profissionais:</label>
+                <textarea class="area" id="exp0" name="exp" placeholder="Escreva suas experiências aqui!"></textarea><br>
+            </div>
+            <button id="addd" class="add">Adicionar experiências +
+            </button>
+            <br>
+            <button type="submit" class="button1">Gerar currículo</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

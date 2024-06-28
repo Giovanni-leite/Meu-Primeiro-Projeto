@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #669999;
+    text-align: center;
+}
+
+.mydiv {
+    margin: auto;
+    width: 40%;
+    border: 3px solid gray;
+    text-align: justify;
+    padding: 30px;
+    background-color: lightblue;
+    text-align: center;
+}
+.add {   
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: orange;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.div-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 65%;
+}
+
+input{
+
+    width: 65%;
+    border-radius: 5px;
+    
+
+}
+
+div.field {
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 2px;
+    border-style: ridge;
+    border-radius: 7px;
+    border-color: black;
+    text-align: justify;
+}
+.add:hover, .button1:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.area {
+    width: 65%;
+    text-align: justify;
+} 
